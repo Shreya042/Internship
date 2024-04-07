@@ -1,0 +1,92 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    align-self: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about {
+    padding: 2rem;
+}
+
+.projects {
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    padding: 2rem;
+}
+
+.contact form {
+    margin-top: 1rem;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #555;
+}
